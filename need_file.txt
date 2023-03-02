@@ -1,0 +1,9 @@
+ALL_data_vcoco人与目标关系标注VSGnet    √---ALL_data_vcoco/Annotations_vcoco
+train_detected_results.pk目标检测结果VSGnet √---ALL_data_vcoco/Object_Detections_vcoco
+vcoco_预测的场景图  TDE
+glove.6b.300词向量 √
+VG-SGG-dicts.json   √场景图中预测的关系的索引{'关系' : index}
+hoi_data/infos/prior.pickle ?---不需要读取此信息的分支
+
+需要获取检测不到任何目标对象的Annotations_vcoco的keys
+

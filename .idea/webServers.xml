@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="4cb16056-fce6-461e-9248-6aa4edd915fe" name="HOI">
+        <fileTransfer accessType="SFTP" host="10.10.65.3" port="22" sshConfigId="fcd3317d-441e-4b59-b0af-5407b64b51df" sshConfig="root@10.10.65.3:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="9f3db48b-4dca-4ba8-b111-e9a365bdf6e9" name="SGHOI">
+        <fileTransfer accessType="SFTP" host="10.10.65.3" port="22" sshConfigId="ee218226-3aed-4f2c-adb2-3f70da1003ab" sshConfig="qiujin@10.10.65.3:22">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
